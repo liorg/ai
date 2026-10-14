@@ -16,7 +16,6 @@ docker run --rm --gpus all ubuntu:24.04 nvidia-smi
 יצירת CONTAINER vllm/vllm-openai:
 ```bash
 
-
 docker run -d \
   --name qwen-api \
   --gpus all \
@@ -43,9 +42,9 @@ docker logs --tail 80 qwen-api
 
 ```
 
-
 RUN TEST
-``bash
+
+```bash
 curl -fsS http://127.0.0.1:8000/v1/chat/completions \
   -H 'Content-Type: application/json' \
   -d '{
