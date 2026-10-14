@@ -36,13 +36,15 @@ docker run -d \
 ```
 
 LOGS
-``bash
+
+```bash
 
 docker logs --tail 80 qwen-api
 
 ```
 
 RUN TEST
+
 
 ```bash
 curl -fsS http://127.0.0.1:8000/v1/chat/completions \
