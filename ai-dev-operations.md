@@ -2,7 +2,7 @@
 
 ## פרטי השירות
 
-- כתובת API: https://ai-dev.grossmanbot.download
+- כתובת API: https://ai-dev.gr...
 - שירות Tunnel: `cloudflared-ai-dev`
 - קונטיינר מודל: `qwen-api`
 - מודל: `Qwen/Qwen3-4B-AWQ`
